@@ -12,31 +12,34 @@
 
 <body class="d-flex justify-content-center align-items-center bg-light vh-100  gradient-striped" >
 
-    <div class="d-flex align-items-center p-3 mb-2 bg-primary-subtle text-primary-emphasis custom-border-radius">
+    <div class="d-flex align-items-center p-3 mb-2 bg-primary-subtle text-primary-emphasis rounded">
         <div class="align-items-center" >
-            <h1 id="tittle" class="textStyle">Login</h1>
+            
+            <h1 id="tittle" class="text-center fw-bold">Login</h1>
 
 
             <div class="containerInput">
-                <label for="userName" class="font-weight-bold">User </label> <br>
+                <label for="userName" class="text-md-start fw-bold">email </label> <br>
 
-                <input type="email" id="userMail" class="inputStyle" placeholder="enter your email"> <br>
+                <input type="email" id="userMail" class="inputStyle form-control" placeholder="enter your email"> <br>
 
                 
                 <br>
 
-                <label for="pass" class="textStyle">Password </label> <br>
+                <label for="pass" class="text-md-start fw-bold">Password </label> <br>
 
-                <input type="password" id="pass" class="inputStyle" placeholder="enter your password"> <br>
+                <input type="password" id="pass" class="inputStyle form-control" placeholder="enter your password"> 
+                
+                <br>
 
-                <input type="checkbox" id="checkbox">
-                <label for="checkbox">show password?</label>
+                <input type="checkbox" id="checkbox" class="form-check-input">
+                <label for="checkbox" >show password?</label>
 
 
             </div>
 
-            <div id="buttonContainer">
-                <button type="button" class="btn btn-outline-primary" id="getInButton">Get in</button>
+            <div id="buttonContainer" class="d-flex justify-content-center">
+                <button type="button" class="btn btn-outline-primary " id="getInButton">Get in</button>
             </div>
         </div>
     </div>
