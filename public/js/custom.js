@@ -14,6 +14,8 @@ buttonGetIn.addEventListener ("click",
             const userName = inputUserName;
             const passWord = inputPassword;
            alert("Welcome " + userName)
+
+           
         }
     }
 )
@@ -29,3 +31,4 @@ showPass.addEventListener ("click",
         
     }
 )
+
