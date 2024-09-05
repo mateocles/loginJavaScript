@@ -1,5 +1,5 @@
 .colorBack {
-    background-image: linear-gradient(#28294aed, #9b91ea);
+    background-image: linear-gradient(#020017, #28294aed, #9b91ea);
 }
 
 .containerColor {
@@ -19,6 +19,7 @@
     background: linear-gradient(#28294aed, #9b91ea);
     background-clip: text;
     color: transparent;
+    font-weight: bold;
 }
 
 .buttonColor {
@@ -28,3 +29,35 @@
 .navVar {
     margin-top: 10px;
 }
+
+.signUpStyle {
+    margin-top: 20px;
+}
+
+.signUpContainer {
+    width: 50%;
+    height: 100%;
+}
+
+.displaySignUpContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputSize {
+    width: 50%;
+}
+
+.containerFlex {
+    display: flex;
+    align-content: center;
+}
+
+.messaggeStyle {
+    width: 50%;
+    display: flex;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
