@@ -1,0 +1,30 @@
+.colorBack {
+    background-image: linear-gradient(#28294aed, #9b91ea);
+}
+
+.containerColor {
+    background-color: #28294a;
+}
+
+.containerBorder {
+    border-radius: 30px;
+}
+
+.resizeContainer {
+    height: 500px;
+    width: 300px;
+}
+
+.textColor {
+    background: linear-gradient(#28294aed, #9b91ea);
+    background-clip: text;
+    color: transparent;
+}
+
+.buttonColor {
+    background: linear-gradient(#28294aed, #9b91ea);
+}
+
+.navVar {
+    margin-top: 10px;
+}

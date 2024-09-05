@@ -13,7 +13,7 @@ buttonGetIn.addEventListener ("click",
         } else {
             const userName = inputUserName;
             const passWord = inputPassword;
-           alert("Welcome " + userName)
+           window.location.href = 'home.html'
 
            
         }
