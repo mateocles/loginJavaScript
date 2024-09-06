@@ -1,9 +1,9 @@
 .colorBack {
-    background-image: linear-gradient(#020017, #28294aed, #9b91ea);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .containerColor {
-    background-color: #28294a;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
 
 .containerBorder {
@@ -16,14 +16,11 @@
 }
 
 .textColor {
-    background: linear-gradient(#28294aed, #9b91ea);
-    background-clip: text;
-    color: transparent;
-    font-weight: bold;
+    color: white;
 }
 
 .buttonColor {
-    background: linear-gradient(#28294aed, #9b91ea);
+    background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .navVar {
