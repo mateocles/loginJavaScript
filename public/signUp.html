@@ -10,30 +10,39 @@
 </head>
 
 <body class="colorBack vh-100 displaySignUpContainer">
-    <div class="signUpContainer containerColor d-flex justify-content-center align-items-center">
-        <div class="container">
-            <h1 class="text-center textColor">Create your account</h1>
-            <label for="name" class="textColor">Fist Name</label> <br>
-            <input type="text" name="name" class="inputStyle form-control inputSize" placeholder="First name"> <br>
 
-            <label for="lastName" class="textColor">Last Name</label> <br>
-            <input type="text" name="lastName" class="inputStyle form-control inputSize" placeholder="Last name"> <br>
+    <div class="d-flex align-content-center justify-content-center signUpContainer containerColor">
 
-            <label for="email" class="textColor">email</label> <br>
-            <input type="email" name="email" class="inputStyle form-control inputSize" placeholder="email"><br>
+        <div class="temp ">
 
-            <label for="passSignUp" class="textColor">Password</label> <br>
-            <input type="password" name="passSignUp" class = "inputStyle form-control inputSize" placeholder="Password">
+            <div>
+                <h1 class="text-center textColor">Create your account</h1>
 
+                <label for="name" class="textColor">Fist Name</label> <br>
+                <input type="text" name="name" class="inputStyle form-control inputSize" placeholder="First name" autocomplete="off"> <br>
+
+                <label for="lastName" class="textColor">Last Name</label> <br>
+                <input type="text" name="lastName" class="inputStyle form-control inputSize" placeholder="Last name" autocomplete="off">
+                <br>
+
+                <label for="email" class="textColor">email</label> <br>
+                <input type="email" name="email" class="inputStyle form-control inputSize" placeholder="email" autocomplete="off"><br>
+
+                <label for="passSignUp" class="textColor">Password</label> <br>
+                <input type="password" name="passSignUp" class="inputStyle form-control inputSize"
+                    placeholder="Password" autocomplete="off">
+
+                <div class="d-flex align-items-center justify-content-center">
+                    <button
+                        class="btn btn-outline buttonColor signUpBottonStyle btn btn-outline buttonColor signUpStyle">
+                        signUp</button>
+                </div>
+            </div>
 
         </div>
     </div>
 
-    <div class="messaggeStyle">
-        <h1 class="textColor">
-            Welcome to my site <br>Enjoy it!
-        </h1>
-    </div>
+
 </body>
 
 </html>
